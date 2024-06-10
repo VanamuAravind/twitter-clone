@@ -1,0 +1,115 @@
+.userinput-main-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+}
+.auth{
+    width: 31vw;
+    height: 80vh;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.194);
+    position: relative;
+    padding: 10px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.close-btn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    scale: 1.2;
+    width: 20px;
+    padding: 2px;
+    aspect-ratio: 1/1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.close-btn:hover{
+    background-color: rgba(143, 143, 143, 0.304);
+    cursor: pointer;
+}
+.twit-mini-logo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twit-mini-logo img{
+    width: 50px;
+    height: auto;
+}
+
+
+.input-field,.auth-label{
+    width: 90%;
+    /* max-width: 90%; */
+    aspect-ratio: 8/1;
+    position: relative;
+}
+.input-field{
+    border-radius: 4px;
+    padding: 0px 10px;
+    border: 2px solid rgba(143, 143, 143, 0.304);
+    background-color: transparent;
+    font-size: 16px;
+    outline: none;
+}
+.input-field:focus{
+    border: 2px solid rgb(42, 135, 241);
+}
+.nxt-btn{
+    position: absolute;
+    bottom: 30px;
+    width: 70%;
+    height: 55px;
+    border-radius: 50px;
+    background-color: grey;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+.cp{
+    cursor: pointer;
+}
+.username-field{
+    position: relative;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.username-field input{
+    width: 100%;
+    padding-left: 30px;
+}
+.username-field label{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(42, 135, 241);
+}
+
+.catagory-container{
+    width: 100%;
+    height: 55%;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    gap: 3%;
+}
